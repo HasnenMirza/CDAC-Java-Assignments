@@ -1,0 +1,157 @@
+import java.util.Scanner;
+
+import javax.sql.rowset.CachedRowSet;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		int choice;
+		Manager man[] = new Manager[60];
+		Engineer eng[] = new Engineer[100];
+		Salesman sal[] = new Salesman[200];
+
+
+		int indexOfManager = 0;
+		int indexOfEnginner = 0;
+		int indexOfSalesman = 0;
+
+		do {
+			System.out.println("1. ADD");
+			System.out.println("2. DISPLAY");
+			System.out.println("3. SORT");
+			System.out.println("4. EXIT");
+
+			choice = getNum.getchoice();
+			switch (choice) {
+
+			case 1: {
+				int type;
+
+				do {
+					System.out.println("1. ADD MANAGER");
+					System.out.println("2. ADD ENGINEER");
+					System.out.println("3. ADD SALES MAN");
+					System.out.println("4. EXIT");
+
+					type = getNum.getchoice();
+
+					switch (type) {
+
+					case 1: {
+						String name;
+						String address;
+						int age;
+						String gender;
+						float salary;
+						float hra;
+						System.out.println("Enter the name");
+						name = input.nextLine();
+
+						System.out.println("Enter the address");
+						address = input.nextLine();
+
+						System.out.println("Enter the age");
+						age = input.nextInt();
+
+						System.out.println("Enter the gender: (Male/Female/Transgender)");
+						gender = input.nextLine();
+
+						System.out.println("Enter the basic salary");
+						salary = input.nextFloat();
+
+						System.out.println("Enter the house rent allowance (HRA): ");
+						hra = input.nextFloat();
+
+						man[indexOfManager] = new Manager(name, address, age, gender, salary, hra);
+						System.out.println("Manager successfully added");
+						indexOfManager++;
+						break;
+					}
+					case 2: {
+						String name;
+						String address;
+						int age;
+						String gender;
+						float salary;
+						float overTime;
+						System.out.println("Enter the name");
+						name = input.nextLine();
+
+						System.out.println("Enter the address");
+						address = input.nextLine();
+
+						System.out.println("Enter the age");
+						age = input.nextInt();
+
+						System.out.println("Enter the gender: (Male/Female/Transgender)");
+						gender = input.nextLine();
+
+						System.out.println("Enter the basic salary");
+						salary = input.nextFloat();
+
+						System.out.println("Enter the Over time amount ");
+						overTime = input.nextFloat();
+
+						eng[indexOfEnginner] = new Engineer(name, address, age, gender, salary, overTime);
+						System.out.println("Engineer successfully added");
+						indexOfEnginner++;
+						break;
+					}
+					case 3: {
+						
+						String name;
+						String address;
+						int age;
+						String gender;
+						float salary;
+						float commision;
+						System.out.println("Enter the name");
+						name = input.nextLine();
+
+						System.out.println("Enter the address");
+						address = input.nextLine();
+
+						System.out.println("Enter the age");
+						age = input.nextInt();
+
+						System.out.println("Enter the gender: (Male/Female/Transgender)");
+						gender = input.nextLine();
+
+						System.out.println("Enter the basic salary");
+						salary = input.nextFloat();
+
+						System.out.println("Enter the Commision ");
+						commision = input.nextFloat();
+
+						sal[indexOfSalesman] = new Salesman(name, address, age, gender, salary, commision);
+						System.out.println("Salesman successfully added");
+						indexOfEnginner++;
+						
+						break;
+					}
+					
+					case 4: {
+						System.out.println("Bye Bye!");
+
+					}
+					
+					default: {
+						System.out.println("Enter valid choice");
+					}
+
+					}
+
+				} while (type != 4);
+			}
+
+			case 6: {
+				return;
+			}
+			}
+		} while (choice != 6);
+
+	}
+
+}

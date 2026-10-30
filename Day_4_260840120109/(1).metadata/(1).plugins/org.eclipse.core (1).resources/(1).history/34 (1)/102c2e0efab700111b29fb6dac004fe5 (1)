@@ -1,0 +1,11 @@
+
+public class Manager extends Employee {
+
+
+		Manager(String name, String address, int age, String gender, float salary){
+			
+			super(name,address,age,gender,salary);
+		}
+	
+
+}

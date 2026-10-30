@@ -1,0 +1,124 @@
+2:43:30 Microsoft.Shutdown.TabStripModel.CloseWebContentses
+2:43:30 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
+2:43:30 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
+2:43:30 Tab92 RenderProcessGone
+2:43:30 Microsoft.UnloadController.ClearUnloadState
+2:43:30 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
+2:43:30 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
+2:43:30 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
+2:43:30 Microsoft.UnloadController.ClearUnloadState
+2:43:30 Browser92 Close Tab92 at 0
+2:43:30 Tab92 WebContentsDestroyed
+2:43:30 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+2:43:30 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+2:43:30 Microsoft.Shutdown.OnWindowClosing
+2:43:30 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+2:43:30 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+2:43:30 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
+2:43:30 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
+2:43:30 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+2:43:30 Widget Closed: BrowserWidget
+2:43:30 Microsoft.UnloadController.TabStripEmpty
+2:43:30 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+2:43:30 Microsoft.Shutdown.OnWindowClosing
+2:43:30 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
+2:43:30 Microsoft.Browser_Removed
+2:43:30 Microsoft.NewBrowser_Popup
+2:43:30 Microsoft.BrowserList.AddBrowser
+2:43:30 Browser93 Insert active Tab93 at 0
+2:43:30 Tab93 StartNav1372 #auto_toplevel
+2:43:30 Tab93 StartNav1373 #typed
+2:43:31 Tab93 FinishNav1372
+2:43:31 Tab93 PageLoad
+2:43:31 Tab93 FinishNav1373
+2:43:31 Tab93 PageLoad
+2:43:32 Tab93 StartNav1374 #typed
+2:43:32 Tab93 FinishNav1374
+2:43:32 Tab93 PageLoad
+2:43:34 Tab93 StartNav1375 #typed
+2:43:34 Tab93 FinishNav1375
+2:43:34 Tab93 PageLoad
+2:43:34 Tab93 StartNav1376 #typed
+2:43:34 Tab93 FinishNav1376
+2:43:34 Tab93 PageLoad
+2:43:35 Tab93 StartNav1377 #typed
+2:43:35 Tab93 FinishNav1377
+2:43:35 Tab93 PageLoad
+2:43:36 Tab93 StartNav1378 #typed
+2:43:36 Tab93 FinishNav1378
+2:43:36 Tab93 PageLoad
+2:43:38 Tab93 StartNav1379 #typed
+2:43:38 Tab93 FinishNav1379
+2:43:38 Tab93 PageLoad
+2:43:48 Tab93 StartNav1380 #typed
+2:43:48 Tab93 FinishNav1380
+2:43:48 Tab93 PageLoad
+2:48:08 Tab93 StartNav1381 #typed
+2:48:08 Tab93 FinishNav1381
+2:48:08 Tab93 PageLoad
+2:48:11 Tab93 StartNav1382 #typed
+2:48:11 Tab93 FinishNav1382
+2:48:11 Tab93 PageLoad
+2:50:58 Tab93 StartNav1383 #typed
+2:50:58 Tab93 FinishNav1383
+2:50:58 Tab93 PageLoad
+2:51:00 Tab93 StartNav1384 #typed
+2:51:00 Tab93 FinishNav1384
+2:51:00 Tab93 PageLoad
+2:51:02 Tab93 StartNav1385 #typed
+2:51:02 Tab93 FinishNav1385
+2:51:02 Tab93 PageLoad
+2:51:06 Tab93 StartNav1386 #typed
+2:51:06 Tab93 FinishNav1386
+2:51:06 Tab93 PageLoad
+2:51:07 Tab93 StartNav1387 #typed
+2:51:07 Tab93 FinishNav1387
+2:51:07 Tab93 PageLoad
+2:51:19 Tab93 StartNav1388 #typed
+2:51:19 Tab93 FinishNav1388
+2:51:19 Tab93 PageLoad
+2:51:22 Tab93 StartNav1389 #typed
+2:51:22 Tab93 FinishNav1389
+2:51:22 Tab93 PageLoad
+2:51:42 Tab93 StartNav1390 #typed
+2:51:42 Tab93 FinishNav1390
+2:51:42 Tab93 PageLoad
+2:51:43 Tab93 StartNav1391 #typed
+2:51:43 Tab93 FinishNav1391
+2:51:43 Tab93 PageLoad
+2:51:43 Tab93 StartNav1392 #typed
+2:51:44 Tab93 FinishNav1392
+2:51:44 Tab93 PageLoad
+2:51:54 Tab93 StartNav1393 #typed
+2:51:54 Tab93 FinishNav1393
+2:51:54 Tab93 PageLoad
+2:51:54 Tab93 StartNav1394 #typed
+2:51:54 Tab93 FinishNav1394
+2:51:54 Tab93 PageLoad
+2:51:56 Tab93 StartNav1395 #typed
+2:51:56 Tab93 FinishNav1395
+2:51:56 Tab93 PageLoad
+2:52:13 Tab93 StartNav1396 #typed
+2:52:13 Tab93 FinishNav1396
+2:52:13 Tab93 PageLoad
+2:54:30 Tab93 StartNav1397 #typed
+2:54:30 Tab93 FinishNav1397
+2:54:30 Tab93 PageLoad
+2:56:27 Tab93 StartNav1398 #typed
+2:56:27 Tab93 FinishNav1398
+2:56:27 Tab93 PageLoad
+2:58:37 Tab93 StartNav1399 #typed
+2:58:37 Tab93 FinishNav1399
+2:58:37 Tab93 PageLoad
+2:58:45 Tab93 StartNav1400 #typed
+2:58:45 Tab93 FinishNav1400
+2:58:45 Tab93 PageLoad
+2:58:54 Tab93 StartNav1401 #typed
+2:58:54 Tab93 FinishNav1401
+2:58:54 Tab93 PageLoad
+2:58:55 Tab93 StartNav1402 #typed
+2:58:55 Tab93 FinishNav1402
+2:58:55 Tab93 PageLoad
+2:58:57 Tab93 StartNav1403 #typed
+2:58:57 Tab93 FinishNav1403
+2:58:57 Tab93 PageLoad

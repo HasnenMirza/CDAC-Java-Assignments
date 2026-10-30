@@ -1,0 +1,21 @@
+#Eclipse workspace metadata
+.metadata/
+.settings/
+.classpath
+.project
+
+#Compiled Java files
+*.class
+bin/
+
+#Eclipse build output
+**/bin/
+
+#Maven build output
+**/target/
+
+#Temporary files
+*.tmp
+
+#Zip files
+*.zip
